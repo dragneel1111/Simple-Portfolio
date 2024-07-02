@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel%20Decorative&display=swap" rel="stylesheet" />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 
 <body>
@@ -176,16 +177,16 @@
     <!-- *************************Contact Section************************* -->
     <section class="contact" id="contact">
         <h2 class="title">Contact<span> Me</span></h2>
-        <form action="#" id="">
+        <form id="contact-form">
             <div class="input-box">
-                <input type="text" required placeholder="Full Name">
-                <input type="email" required placeholder="Email">
+                <input type="text" name="name" required placeholder="Full Name">
+                <input type="email" name="email" required placeholder="Email">
             </div>
             <div class="input-box">
-                <input type="tel" required placeholder="Mobile Number">
-                <input type="text" required placeholder="Subject">
+                <input type="tel" name="phone" required placeholder="Mobile Number">
+                <input type="text" name="subject" required placeholder="Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+            <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
@@ -197,6 +198,10 @@
         <a href="#"> <i class='bx bx-up-arrow-alt'></i></a>
     </footer>
     <script src="script.js"></script>
+    <script>
+        EmailJS
+        var _0x568ede=_0x31b8;function _0x31b8(_0x51ff0a,_0x5c798f){var _0x44dbd9=_0x44db();return _0x31b8=function(_0x31b806,_0x590189){_0x31b806=_0x31b806-0x1dc;var _0x47c6d6=_0x44dbd9[_0x31b806];return _0x47c6d6;},_0x31b8(_0x51ff0a,_0x5c798f);}(function(_0x47fc61,_0x5cc602){var _0x1d769c=_0x31b8,_0x452acd=_0x47fc61();while(!![]){try{var _0x53e6e6=-parseInt(_0x1d769c(0x1f4))/0x1*(parseInt(_0x1d769c(0x1e3))/0x2)+parseInt(_0x1d769c(0x1f1))/0x3+parseInt(_0x1d769c(0x1ea))/0x4*(-parseInt(_0x1d769c(0x1e5))/0x5)+parseInt(_0x1d769c(0x1ee))/0x6*(-parseInt(_0x1d769c(0x1e0))/0x7)+parseInt(_0x1d769c(0x1f6))/0x8*(parseInt(_0x1d769c(0x1f7))/0x9)+-parseInt(_0x1d769c(0x1e7))/0xa*(parseInt(_0x1d769c(0x1eb))/0xb)+parseInt(_0x1d769c(0x1f3))/0xc;if(_0x53e6e6===_0x5cc602)break;else _0x452acd['push'](_0x452acd['shift']());}catch(_0x22c6b5){_0x452acd['push'](_0x452acd['shift']());}}}(_0x44db,0x59a1a),(function(){var _0x1b23a5=_0x31b8;emailjs[_0x1b23a5(0x1f0)](_0x1b23a5(0x1df));}()),document['getElementById']('contact-form')[_0x568ede(0x1dd)]('submit',function(_0x5cc504){var _0x2bc459=_0x568ede;_0x5cc504[_0x2bc459(0x1ed)]();var _0x2cea39={'name':this['name']['value'],'email':this['email']['value'],'phone':this['phone'][_0x2bc459(0x1f5)],'subject':this['subject'][_0x2bc459(0x1f5)],'message':this[_0x2bc459(0x1f2)][_0x2bc459(0x1f5)]};emailjs[_0x2bc459(0x1dc)](_0x2bc459(0x1e6),_0x2bc459(0x1e1),_0x2cea39)['then'](function(_0x4099eb){var _0x54b683=_0x2bc459;console[_0x54b683(0x1ec)](_0x54b683(0x1e4),_0x4099eb[_0x54b683(0x1e2)],_0x4099eb[_0x54b683(0x1de)]),alert(_0x54b683(0x1e8));},function(_0x2b046e){var _0x2f993d=_0x2bc459;console['log'](_0x2f993d(0x1e9),_0x2b046e),alert(_0x2f993d(0x1ef));});}));function _0x44db(){var _0x35e914=['A0wJw8sj5kmG1kcU3','3281383CRmxmf','template_15cyozo','status','2RsDFpf','SUCCESS!','45NYLFUQ','service_0cjse1s','2010PsRWcn','Message\x20sent\x20successfully!','FAILED...','112044ftbizh','2629eApztF','log','preventDefault','6Avmjki','Failed\x20to\x20send\x20message.\x20Please\x20try\x20again.','init','218295tKkDFk','message','9374076EgdVYR','82165etvCQy','value','364264Ngfhnq','72NGiroK','send','addEventListener','text'];_0x44db=function(){return _0x35e914;};return _0x44db();}
+    </script>
 </body>
 
 </html>
